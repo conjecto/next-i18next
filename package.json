@@ -100,14 +100,15 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
+    "@types/isomorphic-fetch": "^0.0.35",
     "core-js": "^2",
     "detect-node": "^2.0.4",
     "hoist-non-react-statics": "^3.2.0",
     "i18next": "^19.0.3",
     "i18next-browser-languagedetector": "^4.0.0",
     "i18next-express-middleware": "^1.5.0",
-    "i18next-node-fs-backend": "^2.1.0",
-    "i18next-xhr-backend": "^3.0.0",
+    "i18next-fetch-backend": "^2.2.0",
+    "isomorphic-fetch": "^2.2.1",
     "path-match": "^1.2.4",
     "prop-types": "^15.6.2",
     "react-i18next": "^11.0.0",
