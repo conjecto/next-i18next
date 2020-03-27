@@ -42,11 +42,6 @@
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint && yarn test"
-    }
-  },
   "bundlesize": [
     {
       "path": "./examples/simple/.next/static/chunks/commons*.js",
